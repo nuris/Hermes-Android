@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="HermesLogin\HermesLogin.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin19" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HermesLogin\MainActivity.cs">
+    <Files>
+      <File FileName="HermesLogin\MainActivity.cs" Line="27" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HermesLogin AndroidDeviceId-Debug="192.168.56.100:5555" AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

@@ -1,0 +1,17 @@
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\bin\Debug\HermesLogin.dll
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\bin\Debug\HermesLogin.pdb
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\bin\Debug\HermesLogin.dll.mdb
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\bin\Debug\HermesLogin.HermesLogin.apk
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\bin\Debug\HermesLogin.HermesLogin-Signed.apk
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\obj\Debug\HermesLogin.dll
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\obj\Debug\HermesLogin.pdb
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\obj\Debug\android\bin\HermesLogin.HermesLogin.apk
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\obj\Debug\res\layout\main.xml
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\obj\Debug\res\values\strings.xml
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\obj\Debug\res\drawable-mdpi\icon.png
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\obj\Debug\R.cs.flag
+C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\obj\Debug\uploadflags.txt
