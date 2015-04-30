@@ -23,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="15"
+        android:background="@drawable/ButtonSignInStyle"
         android:id="@+id/btnSignIn"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -41,6 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="15"
+        android:background="@drawable/ButtonSignInMailStyle"
         android:id="@+id/btnSignInEmail"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -56,6 +58,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/progressBar1"
             android:layout_centerInParent="true"
-            android:indeterminate="true" />
+            android:indeterminate="true"
+            android:background="@drawable/ProgressBarStyle" />
     </RelativeLayout>
 </LinearLayout>

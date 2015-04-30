@@ -1,1 +1,1 @@
-C:\Users\Victoria\Documents\Projects\HermesLogin\HermesLogin\bin\Debug\HermesLogin.dll
+C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\bin\Debug\HermesLogin.dll

@@ -61,6 +61,9 @@
     <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ButtonSignInMailStyle.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ButtonSignInStyle.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ProgressBarStyle.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>
