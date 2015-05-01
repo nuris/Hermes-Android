@@ -8,7 +8,7 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <TextView
-        android:text="Crear cuenta"
+        android:text="@string/app_name"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_weight="20"
@@ -19,7 +19,7 @@
         android:textSize="25dp"
         android:id="@+id/txtCreateAcount" />
     <Button
-        android:text="Iniciar Sesion"
+        android:text="@string/txtIniciarSesion"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="15"
@@ -29,7 +29,7 @@
         android:layout_marginRight="20dp"
         android:textSize="15dp" />
     <TextView
-        android:text="O"
+        android:text="@string/txtOr"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -38,12 +38,12 @@
         android:id="@+id/textOr"
         android:gravity="center" />
     <Button
-        android:text="Iniciar sesion con correo"
+        android:text="@string/txtCrearCuentaMail"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="15"
-        android:background="@drawable/ButtonSignInMailStyle"
-        android:id="@+id/btnSignInEmail"
+        android:background="@drawable/ButtonSignUpMailStyle"
+        android:id="@+id/btnSignUpEmail"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:textSize="15dp" />

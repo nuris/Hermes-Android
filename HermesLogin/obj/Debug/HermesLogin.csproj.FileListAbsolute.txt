@@ -30,8 +30,13 @@ C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\drawabl
 C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\drawable-xhdpi\icon.png
 C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\drawable-xxhdpi\icon.png
 C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\drawable-xxxhdpi\icon.png
-C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\drawable-hdpi\buttonsigninmailstyle.xml
-C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\drawable-hdpi\buttonsigninstyle.xml
 C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\drawable-hdpi\progressbarstyle.xml
+C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\layout\signupdialog.xml
+C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\drawable-hdpi\edittextstyle.xml
+C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\drawable-hdpi\buttonsigninstyle.xml
+C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\drawable-hdpi\buttonsignupmailstyle.xml
+C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\values\styles.xml
+C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\anim\slide_right.xml
+C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\anim\slide_up.xml
 C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\R.cs.flag
 C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\uploadflags.txt

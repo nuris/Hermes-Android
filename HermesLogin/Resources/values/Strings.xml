@@ -2,4 +2,14 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">HermesLogin</string>
+	<string name="txtIniciarSesion">Iniciar sesión</string>
+	<string name="txtCrearCuentaMail">Crear cuenta con mail</string>
+	<string name="txtOr">Ó</string>
+
+	<string name="txtNombre">Nombre</string>
+	<string name="txtCorreo">Correo electrónico</string>
+	<string name="txtContraseña">Contraseña</string>
+	<string name="txtRepetirContraseña">Repetir contraseña</string>
+	<string name="txtCrearCuenta">Crear cuenta!</string>
+
 </resources>

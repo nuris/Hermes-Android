@@ -1,1 +1,2 @@
 HermesLogin.MainActivity;hermeslogin.MainActivity
+HermesLogin.CreateAccountDialog;hermeslogin.CreateAccountDialog

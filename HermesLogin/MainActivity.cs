@@ -12,18 +12,23 @@ namespace HermesLogin
 	[Activity (Label = "HermesLogin", MainLauncher = true, Icon = "@drawable/icon")]
 	public class MainActivity : Activity
 	{
-		
+		private Button btnSignUp; 
 
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
-			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
-
-			// Get our button from the layout resource,
-			// and attach an event to it
-
+			//Accion del boton crear cuenta
+			btnSignUp = FindViewById<Button>(Resource.Id.btnSignUpEmail);
+			btnSignUp.Click += (object sender, EventArgs args) => 
+			{
+				//Llamar al dialogo de crear cuenta	
+				FragmentTransaction transaction = FragmentManager.BeginTransaction();
+				CreateAccountDialog createAccountDialog = new CreateAccountDialog();
+				createAccountDialog.Show(transaction, "dialog fragment");
+			};
+				
 
 		}
 	}
