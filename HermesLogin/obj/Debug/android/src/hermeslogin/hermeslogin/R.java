@@ -29,7 +29,7 @@ public final class R {
         public static final int textOr=0x7f070002;
         public static final int txtCreateAcount=0x7f070000;
         public static final int txtEmail=0x7f070006;
-        public static final int txtFirstName=0x7f070005;
+        public static final int txtName=0x7f070005;
         public static final int txtPassword=0x7f070007;
         public static final int txtRepeatPassword=0x7f070008;
     }

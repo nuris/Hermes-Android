@@ -113,7 +113,7 @@ namespace HermesLogin
 			public const int txtEmail = 2131165190;
 			
 			// aapt resource value: 0x7f070005
-			public const int txtFirstName = 2131165189;
+			public const int txtName = 2131165189;
 			
 			// aapt resource value: 0x7f070007
 			public const int txtPassword = 2131165191;
