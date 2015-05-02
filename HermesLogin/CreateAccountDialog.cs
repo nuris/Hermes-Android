@@ -3,6 +3,7 @@ using Android.App;
 using Android.Views;
 using Android.OS;
 using Android.Widget;
+using Android.Content;
 
 namespace HermesLogin
 {
@@ -79,6 +80,7 @@ namespace HermesLogin
 			//luego de ingresar tdos los datos y hacer click
 			onSignUpEventComplete.Invoke(this, new OnSignUpEventsArgs(txtName.Text, txtEmail.Text, txtPassword.Text, txtRepeatPassword.Text));
 			this.Dismiss ();
+
 		}	
 		public override void OnActivityCreated (Bundle savedInstanceState)
 		{

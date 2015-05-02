@@ -38,5 +38,10 @@ C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\drawabl
 C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\values\styles.xml
 C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\anim\slide_right.xml
 C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\anim\slide_up.xml
+C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\layout\hermesactivity.xml
+C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\layout\slidingtabfragment.xml
+C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\layout\slidingtabpage.xml
+C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\layout\reservarcanchaactivity.xml
+C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\res\menu\actionbar_menu.xml
 C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\R.cs.flag
 C:\Users\Victoria\Documents\GitHub\HermesLogin\HermesLogin\obj\Debug\uploadflags.txt

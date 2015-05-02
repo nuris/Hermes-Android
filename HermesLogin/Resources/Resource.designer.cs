@@ -91,35 +91,59 @@ namespace HermesLogin
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070009
-			public const int btnDialogSignUp = 2131165193;
+			// aapt resource value: 0x7f08000c
+			public const int btnDialogSignUp = 2131230732;
 			
-			// aapt resource value: 0x7f070001
-			public const int btnSignIn = 2131165185;
+			// aapt resource value: 0x7f080000
+			public const int btnReservarCancha = 2131230720;
 			
-			// aapt resource value: 0x7f070003
-			public const int btnSignUpEmail = 2131165187;
+			// aapt resource value: 0x7f080002
+			public const int btnSignIn = 2131230722;
 			
-			// aapt resource value: 0x7f070004
-			public const int progressBar1 = 2131165188;
+			// aapt resource value: 0x7f080004
+			public const int btnSignUpEmail = 2131230724;
 			
-			// aapt resource value: 0x7f070002
-			public const int textOr = 2131165186;
+			// aapt resource value: 0x7f08000f
+			public const int item_subtitle = 2131230735;
 			
-			// aapt resource value: 0x7f070000
-			public const int txtCreateAcount = 2131165184;
+			// aapt resource value: 0x7f080010
+			public const int item_title = 2131230736;
 			
-			// aapt resource value: 0x7f070006
-			public const int txtEmail = 2131165190;
+			// aapt resource value: 0x7f080011
+			public const int menu = 2131230737;
 			
-			// aapt resource value: 0x7f070005
-			public const int txtName = 2131165189;
+			// aapt resource value: 0x7f080005
+			public const int progressBar1 = 2131230725;
 			
-			// aapt resource value: 0x7f070007
-			public const int txtPassword = 2131165191;
+			// aapt resource value: 0x7f080007
+			public const int sample_content_fragment = 2131230727;
 			
-			// aapt resource value: 0x7f070008
-			public const int txtRepeatPassword = 2131165192;
+			// aapt resource value: 0x7f080006
+			public const int sample_main_layout = 2131230726;
+			
+			// aapt resource value: 0x7f08000d
+			public const int sliding_tabs = 2131230733;
+			
+			// aapt resource value: 0x7f080003
+			public const int textOr = 2131230723;
+			
+			// aapt resource value: 0x7f080001
+			public const int txtCreateAcount = 2131230721;
+			
+			// aapt resource value: 0x7f080009
+			public const int txtEmail = 2131230729;
+			
+			// aapt resource value: 0x7f080008
+			public const int txtName = 2131230728;
+			
+			// aapt resource value: 0x7f08000a
+			public const int txtPassword = 2131230730;
+			
+			// aapt resource value: 0x7f08000b
+			public const int txtRepeatPassword = 2131230731;
+			
+			// aapt resource value: 0x7f08000e
+			public const int viewpager = 2131230734;
 			
 			static Id()
 			{
@@ -135,10 +159,22 @@ namespace HermesLogin
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int HermesActivity = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int SignUpDialog = 2130903041;
+			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int ReservarCanchaActivity = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int SignUpDialog = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int slidingTabFragment = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int slidingTabPage = 2130903045;
 			
 			static Layout()
 			{
@@ -146,6 +182,22 @@ namespace HermesLogin
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f070000
+			public const int actionbar_menu = 2131165184;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
@@ -182,6 +234,9 @@ namespace HermesLogin
 			
 			// aapt resource value: 0x7f050008
 			public const int txtRepetirContraseña = 2131034120;
+			
+			// aapt resource value: 0x7f05000a
+			public const int txtReservarCancha = 2131034122;
 			
 			static String()
 			{

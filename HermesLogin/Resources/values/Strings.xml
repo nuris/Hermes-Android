@@ -12,4 +12,6 @@
 	<string name="txtRepetirContraseña">Repetir contraseña</string>
 	<string name="txtCrearCuenta">Crear cuenta!</string>
 
+	<string name="txtReservarCancha">Reservar cancha</string>
+
 </resources>

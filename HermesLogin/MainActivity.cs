@@ -7,6 +7,9 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Java.Lang;
+using Android.Media;
+
+using String = System.String; 
 
 namespace HermesLogin
 {
@@ -25,7 +28,7 @@ namespace HermesLogin
 			btnSignUp.Click += (object sender, EventArgs args) => 
 			{
 				//Llamar al dialogo de crear cuenta	
-				FragmentTransaction transaction = FragmentManager.BeginTransaction();
+				Android.App.FragmentTransaction transaction = FragmentManager.BeginTransaction();
 				CreateAccountDialog createAccountDialog = new CreateAccountDialog();
 				createAccountDialog.Show(transaction, "dialog fragment");
 				//se le entrega el evento al dialogo que es capturar los textos
@@ -38,17 +41,35 @@ namespace HermesLogin
 
 		void CreateAccountDialog_onSignUpEventComplete (object sender, OnSignUpEventsArgs e)
 		{
-			Thread thread = new Thread (sendDataToServer);
-			thread.Start ();
-		}
+			//Notificacion de la cuenta creada
+			//deberia ser un metodo?
 
-		private void sendDataToServer()
-		{
-			//Aqui se debe comunicar
-			//colocar mientras un dialogo
-			Thread.Sleep(3000);
+//			// Instantiate the builder and set notification elements:
+			Notification.Builder builder = new Notification.Builder (this)
+				.SetAutoCancel (true) // dismiss the notification from the notification area when the user clicks on it
+				.SetContentTitle ("Hermes App") // Set the title
+				.SetSmallIcon (Resource.Drawable.Icon) // This is the icon to display
+				.SetContentText ("Su cuenta ha sido creada con éxito!") // the message to display.
+				.SetDefaults (NotificationDefaults.Vibrate);
 
-			//Aqui deberia mostrar un dialogo si todo sale bien o mal
+			//Notificacion con el sonido del sistema
+			builder.SetSound (RingtoneManager.GetDefaultUri(RingtoneType.Ringtone));
+			// Build the notification:
+			Notification notification = builder.Build();
+			// Turn on vibrate:
+			notification.Defaults |= NotificationDefaults.Vibrate;
+
+			// Finally publish the notification
+			NotificationManager notificationManager = (NotificationManager)GetSystemService(Context.NotificationService);
+			// Publish the notification:
+			const int notificationId = 0;
+			notificationManager.Notify (notificationId, notification);
+
+			//Se inicia la aplicacion
+			var intent = new Intent(this, typeof(HermesActivity));
+			intent.PutExtra ("email", e.Email);
+			intent.PutExtra ("name", e.Name);
+			StartActivity(intent);
 		}
 
 	}
