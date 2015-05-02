@@ -27,11 +27,7 @@ namespace HermesLogin
 			transaction.Commit();
 
 		}
-		public override bool OnCreateOptionsMenu(IMenu menu)
-		{
-			MenuInflater.Inflate(Resource.Menu.actionbar_menu, menu);
-			return base.OnCreateOptionsMenu(menu);
-		}
+
 	}
 }
 

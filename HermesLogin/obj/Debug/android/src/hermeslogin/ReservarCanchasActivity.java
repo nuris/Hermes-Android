@@ -10,7 +10,6 @@ public class ReservarCanchasActivity
 	static {
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
-			"n_onCreateOptionsMenu:(Landroid/view/Menu;)Z:GetOnCreateOptionsMenu_Landroid_view_Menu_Handler\n" +
 			"";
 		mono.android.Runtime.register ("HermesLogin.ReservarCanchasActivity, HermesLogin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", ReservarCanchasActivity.class, __md_methods);
 	}
@@ -30,14 +29,6 @@ public class ReservarCanchasActivity
 	}
 
 	private native void n_onCreate (android.os.Bundle p0);
-
-
-	public boolean onCreateOptionsMenu (android.view.Menu p0)
-	{
-		return n_onCreateOptionsMenu (p0);
-	}
-
-	private native boolean n_onCreateOptionsMenu (android.view.Menu p0);
 
 	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

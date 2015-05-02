@@ -12,7 +12,7 @@ namespace HermesLogin
 		private const int DEFAULT_BOTTOM_BORDER_THICKNESS_DIPS = 2;
 		private const byte DEFAULT_BOTTOM_BORDER_COLOR_ALPHA = 0X26;
 		private const int SELECTED_INDICATOR_THICKNESS_DIPS = 8;
-		private int[] INDICATOR_COLORS = { 0x19A319, 0x0000FC };
+		private int[] INDICATOR_COLORS = { 0xFF8000, 0x80FF00 };
 		private int[] DIVIDER_COLORS = { 0xC5C5C5 };
 
 		private const int DEFAULT_DIVIDER_THICKNESS_DIPS = 1;
